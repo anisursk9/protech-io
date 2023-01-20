@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SProduct</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link  rel="stylesheet" href="/css/product.css">
+
+    <style>
+        .small-img-group{
+            display: flex;
+            justify-content: space-between;
+        }
+        .small-img-col{
+            flex-basis: 24%;
+            cursor: pointer;
+        }
+        .sproduct select{
+            display: block;
+            padding: 5px 10px;
+        }
+        .relate-product span{
+            border-bottom: 1px;
+            border-bottom-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+  <!--<navbar>-->
+  <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top" style="background-color: #e3f2fd;">
+    <ul>
+      <a href="home.html">Home</a>
+      <a href="sproduct.html">Product</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </ul>
+  </nav>
+  <section class="container sproduct my-5 pt-5">
+    <div class="row">
+      <div class="col-lg-5 col-md-12 col-12">
+        <img class="w-100 pb-1" alt="" src="/images/mobile.jpg">
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img width="100%" class="small-image" alt="" src="/images/mobile.jpg">
+          </div>
+          <div class="small-img-col">
+            <img width="100%" class="small-image" alt="" src="/images/mobile.jpg">
+          </div>
+          <div class="small-img-col">
+            <img width="100%" class="small-image" alt="" src="/images/mobile.jpg">
+          </div>
+          <div class="small-img-col">
+            <img width="100%" class="small-image" alt="" src="/images/mobile.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+        <h6>Home/ Mobile</h6>
+        <h3 class="py-3">Redmi Note</h3>
+        <h2>Rs-> 9999</h2>
+        <label>
+          <select class="my-3 py-2">
+            <option>select color</option>
+            <option>Green</option>
+            <option>Silver</option>
+            <option>Gold</option>
+            <option>Black</option>
+          </select>
+        </label>
+        <input class="py-2" style="width: 80px" type="number" value=""/>
+        <button type="button" class="btn btn-dark">Add To Cart</button>
+        <h4 class="py-4">Product Details</h4>
+        <p><span>wyegwurhwlejgfieurlsdfhireuhfleriwudfh4iuleryhfruyhrliueghlerwiu</span></p>
+        <a href="home.html"><button class="btn btn-primary" style="font-size: 30px">&#9754;</button></a>
+      </div>
+    </div>
+  </section>
+  <div class="relate-product">
+    <h3 class="text-center">Related Product</h3>
+    <span/>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <section class="company-details">
+      <div class="">
+        <div class="row mt-3">
+          <div class="col-md-4">
+            <h6 class="company-name" style="font-size: 30px">BISICSL Pvt Ltd</h6>
+            <p class="text-dark">
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h6 class="products" style="font-size: 30px">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="">React</a>
+            </p>
+            <p>
+              <a href="#!" class="">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="">Laravel</a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h6 class="links text-secondary" style="font-size: 30px">Useful links</h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h6 class="contact text-success" style="font-size: 30px">Contact</h6>
+            <p><i class=""></i> New York, NY 10012, US</p>
+            <p>
+              <img src="/images/mail_icon.png" style="width: 20px">
+              info@example.com
+            </p>
+            <p><i class=""></i> + 01 234 567 88</p>
+            <p><i class=""></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="">BISICSL</a>
+    </div>
+  </footer>
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

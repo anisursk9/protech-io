@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px){
+  ul{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .col-4{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px){
+  .col-8{
+    width: 130%;
+  }
+}
+@media screen and (max-width: 768px){
+  .device{
+    width: 180%;
+  }
+}
+@media screen and (max-width: 100px){
+  .item{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 768px){
+  .item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px){
+  #brand .col{
+    width: 18%;
+  }
+}
+@media screen and (max-width: 768px){
+  .col-md-4{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px){
+  .col-md-2{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px){
+  .col-md-3{
+    width: 40%;
+  }
+}
